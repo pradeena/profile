@@ -21,6 +21,7 @@ function Index() {
 	        <Text placeholder = "Last name" type = "text" />
 	        <Text placeholder = "Password" type = "password"/>
 	        <Button name="send"/>
+	        <Button name="send" primary />
         </IndexWrapper>
 		);
     
