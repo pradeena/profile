@@ -2,14 +2,14 @@ import React from "react"
 import style from "styled-components"
 
 const StyleButton=style.button`
-color: white;
-background:blue;
+color: ${(props) => props.primary ? 'black': 'white'};
+background: ${(props) => props.primary ? 'white': 'blue' };
 padding:20px;
 `
 
 function Button(props) {
 	return(
-       <StyleButton>{props.name || "string"}</StyleButton> 
+       <StyleButton primary={props.primary}>{props.name || "string"}</StyleButton> 
 	);
 }
 
