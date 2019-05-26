@@ -20,6 +20,9 @@ function Index() {
 	        <Text placeholder = "First name" type = "text" />
 	        <Text placeholder = "Last name" type = "text" />
 	        <Text placeholder = "Password" type = "password"/>
+	        <Text placeholder = "Password" success type = "password"/>
+	        <Text placeholder = "Password" type = "password"/>
+	        <Text placeholder = "Password" type = "password"/>
 	        <Button name="send"/>
 	        <Button name="send" primary />
         </IndexWrapper>
