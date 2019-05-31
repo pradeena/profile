@@ -1,6 +1,6 @@
 import React from "react"
 import { Button } from '../components/button'
-import { Text } from '../components/input'
+import Input from '../components/input'
 import style from "styled-components"
 
 const IndexWrapper = style.div`
@@ -18,11 +18,11 @@ function Index() {
 	return(
         <IndexWrapper>
         	<Title>Log in</Title>
-	        <Text placeholder = "First name" type = "text" success message="successful" label="First name"/>
-	        <Text placeholder = "Last name" type = "text" success label="Last name"/>
-	        <Text placeholder = "Email" type = "email"  danger message="try again" label="Email"/>
-	        <Text placeholder = "Password" type = "text"  warning message="error" label="Password"/>
-	        <Text placeholder = "Retype Password" type = "password" label="Retype Password" />
+	        <Input placeholder = "First name" type = "text" success message="successful" label="First name"/>
+	        <Input placeholder = "Last name" type = "text" success label="Last name"/>
+	        <Input placeholder = "Email" type = "email"  danger message="try again" label="Email"/>
+	        <Input placeholder = "Password" type = "text"  warning message="error" label="Password"/>
+	        <Input placeholder = "Retype Password" type = "password" label="Retype Password" />
 	        <Button name="send"/>
 	        <Button name="send" primary />
         </IndexWrapper>
