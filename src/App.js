@@ -1,14 +1,13 @@
 import React from 'react';
 
-import HomePage from './pages'
+import Typography from './pages/typography'
 
-import SignUp from './pages/signup'
 
 function App() {
   return (
     <div>
-     <HomePage/>
-     <SignUp/>
+     <Typography/>
+
     </div>
   );
 }
