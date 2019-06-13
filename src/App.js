@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Typography from './pages/typography'
+import Register from './pages/register'
 
 
 function App() {
   return (
     <div>
-     <Typography/>
+     <Register/>
 
     </div>
   );
